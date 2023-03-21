@@ -64,23 +64,29 @@ In order to use the API we need to create a user and API token to authenticate.
 ./manage.py createsuperuser
 ```
 
-If you have your server tunning you should be able to accsess the admin panel from  url: "localhost:8000/admin"
+If you have your server running you should be able to accsess the admin panel from  url: [localhost:8000/admin](http://localhost:8000/admin/)
 
 ### Create token
 
-User argument would in this case be the user id of the super user you created in the step before (usually is 1)
+User argument would in this case be the user id of the superuser you created in the step before (usually is 1)
 
 ```
 ./manage.py create token --user_id=<user_id>
 ```
 
-To use the API you can either user the browsable API via local "localhost:8000/api/v1/" where you need to authenticate yourself with the created token
-in the Header:
-```
-Authorization: Token <token>
-```
-Or you can use any other API software for example: [Postman](https://www.postman.com/)
+Alternativly you can create the token directly in the admin panel in [http://localhost:8000/admin/](http://localhost:8000/admin/authtoken/tokenproxy/)
 
+
+
+For users to authenticate, the token key should be included in the Authorization HTTP header. The key should be prefixed by the string literal "Token", with whitespace separating the two strings. For example:
+```
+Authorization: Token 9944b09199c62bcf9418ad846dd0e4bbdfc6ee4b
+```
+To use the API you can either user the browsable API via local "localhost:8000/api/v1/" where you need to authenticate yourself with the created token
+in the Header via for example chrome plugin [simple-modify-headers](https://chrome.google.com/webstore/detail/simple-modify-headers/gjgiipmpldkpbdfjkgofildhapegmmic) or you can use any other API software for example: [Postman](https://www.postman.com/)
+
+
+# API Documentation
 
 
 ## List all events
