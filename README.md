@@ -6,12 +6,37 @@ This is an event scheduling API that can be used as a backend for event organizi
 Download repository
 
 
+Make sure you have pip installed.
+```
+$ sudo apt-get install python3-pip
+```
+Installing virtualenvwrapper 
+```
+$ sudo pip3 install virtualenvwrapper
+```
+Open bashrc by –
+```
+$ sudo gedit ~/.bashrc
+```
+After opening it, add the following  lines to it :
+```
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+Save the bashrc file.
+```
+
 In project folder:
 
 ### Create virtualenv
 
 ```
 mkvirtualenv --python=`which python3` nameofEnviroment
+```
+
+To work on an existing virtual environment,
+```
+$ workon nameofEnviroment
 ```
 ### Install requirements
 
@@ -28,6 +53,27 @@ python manage.py runserver
 ```
 
 ***
+
+## Usage:
+In order to use the API we need to create a user and API token to authenticate.
+
+
+### Create super user
+
+```
+./manage.py createsuperuser
+
+```
+If you have your server tunning you should be able to accsess the admin panel from  url: "localhost:8000/admin"
+
+### Create token
+
+User argument would in this case be the user id of the super user you created in the step before (usually is 1)
+
+```
+./manage.py create token --user_id=<user_id>
+
+```
 
 ## List all events
 Endpoint: `/api/v1/event/list`
