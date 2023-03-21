@@ -74,7 +74,7 @@ User argument would in this case be the user id of the superuser you created in 
 ./manage.py create token --user_id=<user_id>
 ```
 
-Alternativly you can create the token directly in the admin panel in [http://localhost:8000/admin/] http://localhost:8000/admin/authtoken/tokenproxy/
+Alternativly you can create the token directly in the admin panel in [http://localhost:8000/admin/](http://localhost:8000/admin/authtoken/tokenproxy/)
 
 For users to authenticate, the token key should be included in the Authorization HTTP header. The key should be prefixed by the string literal "Token", with whitespace separating the two strings. For example:
 ```
