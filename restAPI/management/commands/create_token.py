@@ -11,5 +11,5 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         user = options["user_id"]
         token = Token.objects.create(user_id=user)
-        print(token.key)
+        print("HERE IS YOUR TOKEN:", token.key)
 
