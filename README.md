@@ -62,8 +62,8 @@ In order to use the API we need to create a user and API token to authenticate.
 
 ```
 ./manage.py createsuperuser
-
 ```
+
 If you have your server tunning you should be able to accsess the admin panel from  url: "localhost:8000/admin"
 
 ### Create token
@@ -72,8 +72,16 @@ User argument would in this case be the user id of the super user you created in
 
 ```
 ./manage.py create token --user_id=<user_id>
-
 ```
+
+To use the API you can either user the browsable API via local "localhost:8000/api/v1/" where you need to authenticate yourself with the created token
+in the Header:
+```
+Authorization: Token <token>
+```
+Or you can use any other API software for example: [Postman](https://www.postman.com/)
+
+
 
 ## List all events
 Endpoint: `/api/v1/event/list`
