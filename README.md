@@ -64,16 +64,17 @@ In order to use the API we need to create a user and API token to authenticate.
 ./manage.py createsuperuser
 ```
 
-If you have your server tunning you should be able to accsess the admin panel from  url: "localhost:8000/admin"
+If you have your server tunning you should be able to accsess the admin panel from  url: [localhost:8000/admin](http://localhost:8000/admin/)
 
 ### Create token
 
-User argument would in this case be the user id of the super user you created in the step before (usually is 1)
+User argument would in this case be the user id of the superuser you created in the step before (usually is 1)
 
 ```
 ./manage.py create token --user_id=<user_id>
 ```
 
+Alternativly you can create the token directly in the admin panel in [http://localhost:8000/admin/] http://localhost:8000/admin/authtoken/tokenproxy/
 
 For users to authenticate, the token key should be included in the Authorization HTTP header. The key should be prefixed by the string literal "Token", with whitespace separating the two strings. For example:
 ```
