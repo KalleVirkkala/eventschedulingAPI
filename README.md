@@ -76,6 +76,8 @@ User argument would in this case be the user id of the superuser you created in 
 
 Alternativly you can create the token directly in the admin panel in [http://localhost:8000/admin/](http://localhost:8000/admin/authtoken/tokenproxy/)
 
+
+
 For users to authenticate, the token key should be included in the Authorization HTTP header. The key should be prefixed by the string literal "Token", with whitespace separating the two strings. For example:
 ```
 Authorization: Token 9944b09199c62bcf9418ad846dd0e4bbdfc6ee4b
@@ -84,6 +86,7 @@ To use the API you can either user the browsable API via local "localhost:8000/a
 in the Header via for example chrome plugin [simple-modify-headers](https://chrome.google.com/webstore/detail/simple-modify-headers/gjgiipmpldkpbdfjkgofildhapegmmic) or you can use any other API software for example: [Postman](https://www.postman.com/)
 
 
+# API Documentation
 
 
 ## List all events
