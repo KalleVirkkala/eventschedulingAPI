@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="674e8e36-c3a3-4f29-bd2c-4499e1a1b773" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/restAPI/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/restAPI/models.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2My0n0b3m78Wwn8zWAviFCdtbqR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kallevirkkala/eventschedulingAPI/restAPI/tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/restAPI/tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/restAPI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests">
+    <configuration name="Test: restAPI.tests.tests_api" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="eventschedulingAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="restAPI.tests.tests_api" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="eventschedulingAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="restAPI.tests.tests_api.EventSchedulingBaseApiTests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_event" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="eventschedulingAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_event" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_no_suitable_dates" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="eventschedulingAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_no_suitable_dates" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_suitable_dates" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="eventschedulingAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_suitable_dates" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="eventschedulingAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eventschedulingAPI" type="Python.DjangoServer" factoryName="Django server">
+      <module name="eventschedulingAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../.virtualenvs/Development/bin/Python" />
+      <option name="SDK_NAME" value="Python 3.9 (Development)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="true" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.Unnamed" />
+      <item itemvalue="Django Server.eventschedulingAPI" />
+      <item itemvalue="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests" />
+      <item itemvalue="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_event" />
+      <item itemvalue="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_no_suitable_dates" />
+      <item itemvalue="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_suitable_dates" />
+      <item itemvalue="Django tests.Test: restAPI.tests.tests_api" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests" />
+        <item itemvalue="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_event" />
+        <item itemvalue="Django tests.Test: restAPI.tests.tests_api" />
+        <item itemvalue="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_no_suitable_dates" />
+        <item itemvalue="Django tests.Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_suitable_dates" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="674e8e36-c3a3-4f29-bd2c-4499e1a1b773" name="Changes" comment="" />
+      <created>1678724678412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678724678412</updated>
+      <workItem from="1678724679455" duration="1157000" />
+      <workItem from="1678727298751" duration="759000" />
+      <workItem from="1679149239806" duration="1442000" />
+      <workItem from="1679150847926" duration="388000" />
+      <workItem from="1679151374604" duration="261000" />
+      <workItem from="1679151640014" duration="1000" />
+      <workItem from="1679151666399" duration="3000" />
+      <workItem from="1679151721957" duration="16330000" />
+      <workItem from="1679236280682" duration="17719000" />
+      <workItem from="1679325656332" duration="13460000" />
+      <workItem from="1679381404884" duration="1785000" />
+    </task>
+    <task id="LOCAL-00001" summary="remove redundant test view file">
+      <created>1678725092699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678725092699</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add source root folders">
+      <created>1678725193717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678725193717</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove redundant test view file" />
+    <MESSAGE value="Add source root folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add source root folders" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_ApiTest_test_access_api_token_set.coverage" NAME="Test: restAPI.tests.tests_api.ApiTest.test_access_api_token_set Coverage Results" MODIFIED="1679157285518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests Coverage Results" MODIFIED="1679382621779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_create_event_no_name.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_event_no_name Coverage Results" MODIFIED="1679244009013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_model_tests_PeopleTestCase.coverage" NAME="Test: restAPI.tests.model_tests.PeopleTestCase Coverage Results" MODIFIED="1679153980650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api.coverage" NAME="Test: restAPI.tests.tests_api Coverage Results" MODIFIED="1679346669679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_ApiAuthenticationTokenTest_test_access_api_token_set.coverage" NAME="Test: restAPI.tests.tests_api.ApiAuthenticationTokenTest.test_access_api_token_set Coverage Results" MODIFIED="1679164065629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_create_even_wrong_date_format.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_even_wrong_date_format Coverage Results" MODIFIED="1679165787008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingApiTests_test_create_event.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingApiTests.test_create_event Coverage Results" MODIFIED="1679161204384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_create_event.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_event Coverage Results" MODIFIED="1679382617372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_model_tests_EventDateDataTestCase.coverage" NAME="Test: restAPI.tests.model_tests.EventDateDataTestCase Coverage Results" MODIFIED="1679154005009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_results.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results Coverage Results" MODIFIED="1679342306835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_model_tests_EventTestCase.coverage" NAME="Test: restAPI.tests.model_tests.EventTestCase Coverage Results" MODIFIED="1679152399608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_ApiTest_test_access_api_token_not_set.coverage" NAME="Test: restAPI.tests.tests_api.ApiTest.test_access_api_token_not_set Coverage Results" MODIFIED="1679155910120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$factories.coverage" NAME="factories Coverage Results" MODIFIED="1679152769033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/restAPI/tests" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_create_event_wrong_date_format.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_event_wrong_date_format Coverage Results" MODIFIED="1679240829864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$.coverage" NAME=" Coverage Results" MODIFIED="1679157221305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/restAPI/tests" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$model_tests.coverage" NAME="model_tests Coverage Results" MODIFIED="1679151780490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/restAPI/tests" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_ApiTest.coverage" NAME="Test: restAPI.tests.tests_api.ApiTest Coverage Results" MODIFIED="1679156880141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_create_event_no_dates.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_event_no_dates Coverage Results" MODIFIED="1679326755348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_create_vote_wrong_date.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_vote_wrong_date Coverage Results" MODIFIED="1679326178564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_results_suitable_dates.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_suitable_dates Coverage Results" MODIFIED="1679342468478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_model_tests_VotesTestCase.coverage" NAME="Test: restAPI.tests.model_tests.VotesTestCase Coverage Results" MODIFIED="1679154050600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_list_events.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_list_events Coverage Results" MODIFIED="1679335156248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_results_no_suitable_dates.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_results_no_suitable_dates Coverage Results" MODIFIED="1679342499303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_create_evet_wrong_date_format.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_evet_wrong_date_format Coverage Results" MODIFIED="1679165871552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_create_vote.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_create_vote Coverage Results" MODIFIED="1679326295304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/eventschedulingAPI$Test__restAPI_tests_tests_api_EventSchedulingBaseApiTests_test_update_event.coverage" NAME="Test: restAPI.tests.tests_api.EventSchedulingBaseApiTests.test_update_event Coverage Results" MODIFIED="1679334484879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
