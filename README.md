@@ -64,7 +64,7 @@ In order to use the API we need to create a user and API token to authenticate.
 ./manage.py createsuperuser
 ```
 
-If you have your server tunning you should be able to accsess the admin panel from  url: [localhost:8000/admin](http://localhost:8000/admin/)
+If you have your server running you should be able to accsess the admin panel from  url: [localhost:8000/admin](http://localhost:8000/admin/)
 
 ### Create token
 
